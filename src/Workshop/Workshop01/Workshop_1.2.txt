@@ -1,0 +1,37 @@
+1.
+
+
+
+A.class and B.class are generated
+
+
+2.
+B() and B(boolean x) are the constructors of the class B. They are overloaded.
+
+
+3.
+1
+99
+
+B could run.
+
+Error: Could not find or load main class A
+Caused by: java.lang.NoClassDefFoundError: Workshop/Workshop01/A (wrong name: A)
+
+A can't run cause it doesn't have a main function. B could run cause it has the main function.
+
+
+4.
+1
+11
+
+private method could be overriden.
+
+
+5.
+test.java:18: error: class B is public, should be declared in a file named B.java
+ public class B extends A {
+        ^
+1 error
+
+No, the public class name should be the same as the file name.
